@@ -49,7 +49,7 @@ function Marker(poiData) {
     this.titleLabel = new AR.Label(poiData.title.trunc(10), 1, {
         zOrder: 1,
         offsetY: 0.55,
-        offsetX : 2,
+        offsetX : 0,
         style: {
             textColor: '#FFFFFF',
             fontStyle: AR.CONST.FONT_STYLE.BOLD
@@ -60,7 +60,7 @@ function Marker(poiData) {
     this.descriptionLabel = new AR.Label(poiData.description.trunc(15), 0.8, {
         zOrder: 1,
         offsetY: -0.55,
-        offsetX : 2,
+        offsetX : 0,
         style: {
             textColor: '#FFFFFF'
         }
