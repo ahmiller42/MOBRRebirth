@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>e494109f-1c0c-44f8-a414-b0dc119d9f53</ProjectGuid>
+    <ProjectTypeGuids>{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include=".abignore" />
+    <Content Include=".abproject" />
+    <Content Include=".debug.abproject" />
+    <Content Include=".release.abproject" />
+    <Content Include="bower_components\chartjs\.bower.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\.gitignore">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\.travis.yml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\bower.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\Chart.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\Chart.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\CONTRIBUTING.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\docs\00-Getting-Started.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\docs\01-Line-Chart.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\docs\02-Bar-Chart.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\docs\03-Radar-Chart.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\docs\04-Polar-Area-Chart.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\docs\05-Pie-Doughnut-Chart.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\docs\06-Advanced.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\docs\07-Notes.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\gulpfile.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\LICENSE.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\package.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\samples\bar.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\samples\doughnut.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\samples\line-customTooltips.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\samples\line.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\samples\pie-customTooltips.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\samples\pie.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\samples\polar-area.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\samples\radar.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\src\Chart.Bar.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\src\Chart.Core.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\src\Chart.Doughnut.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\src\Chart.Line.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\src\Chart.PolarArea.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\chartjs\src\Chart.Radar.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\everlive\.bower.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\everlive\.gitattributes">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\everlive\min\everlive.all.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\everlive\min\everlive.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\everlive\min\expandProcessor.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\everlive\min\jstimezonedetect.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\everlive\min\mingo.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\everlive\min\mongoQuery.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\everlive\min\reqwest.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\everlive\min\rsvp.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\everlive\min\underscore.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\everlive\min\uuid.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="bower_components\everlive\src\everlive.all.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="cordova.android.js" />
+    <Content Include="cordova.ios.js" />
+    <Content Include="cordova.wp8.js" />
+    <Content Include="Images\Area.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\ArrowKnockout.svg" />
+    <Content Include="Images\BV.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\BV2.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\CV.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\defaultPBS.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\defaultTag.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Flange.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\hexagonab.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\intergraph.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Plant.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\ReportType\IM_SPO_Damage_Corrosion.png" />
+    <Content Include="Images\ReportType\IM_SPO_Damage_Crack.png" />
+    <Content Include="Images\ReportType\IM_SPO_Damage_Defective.png" />
+    <Content Include="Images\ReportType\IM_SPO_Damage_Leak.png" />
+    <Content Include="Images\ReportType\IM_SPO_Damage_Other.png" />
+    <Content Include="index.html" />
+    <Content Include="kendo\js\kendo.dataviz.mobile.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\Black\markers.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\Black\markers_2x.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\BlueOpal\markers.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\BlueOpal\markers_2x.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\Bootstrap\markers.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\Bootstrap\markers_2x.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\Default\markers.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\Default\markers_2x.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\Flat\markers.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\Flat\markers_2x.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\HighContrast\markers.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\HighContrast\markers_2x.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\kendo.dataviz.black.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\kendo.dataviz.blueopal.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\kendo.dataviz.bootstrap.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\kendo.dataviz.default.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\kendo.dataviz.flat.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\kendo.dataviz.highcontrast.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\kendo.dataviz.material.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\kendo.dataviz.materialblack.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\kendo.dataviz.metro.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\kendo.dataviz.metroblack.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\kendo.dataviz.mobile.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\kendo.dataviz.moonlight.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\kendo.dataviz.silver.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\kendo.dataviz.uniform.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\MetroBlack\markers.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\MetroBlack\markers_2x.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\Metro\markers.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\Metro\markers_2x.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\Moonlight\markers.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\Moonlight\markers_2x.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\Silver\markers.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\Silver\markers_2x.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\Uniform\markers.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="kendo\styles\Uniform\markers_2x.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\.gitignore">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\CHANGELOG.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\LICENSE.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\plugin.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\src\android\libs\wikitudesdk.jar">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\src\android\WikitudePlugin.java">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\src\ios\libWikitudeSDK.a">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\src\ios\WikitudeSDK.h">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\src\ios\WTArchitectView.h">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\src\ios\WTArchitectViewDebugDelegate.h">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\src\ios\WTARViewController.h">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\src\ios\WTARViewController.m">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\src\ios\WTNavigation.h">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\src\ios\WTStartupConfiguration.h">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\src\ios\WTWikitudePlugin.h">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\src\ios\WTWikitudePlugin.m">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\www\WikitudePlugin.js" />
+    <Content Include="scripts\ade.js" />
+    <Content Include="scripts\home.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="scripts\limitingrange.js" />
+    <Content Include="scripts\loadingPoisFromApplicationModel.js" />
+    <Content Include="scripts\marker.js" />
+    <Content Include="scripts\ObservationReport.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="scripts\queryHandler.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="scripts\radar.js" />
+    <Content Include="styles\common.css" />
+    <Content Include="views\details.html" />
+    <Content Include="views\world.html" />
+    <Content Include="views\Type.html" />
+    <Resource Include="App_Resources\Android\drawable-hdpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-mdpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-nodpi\splashscreen.9.png" />
+    <Resource Include="App_Resources\iOS\Default-568h@2x.png" />
+    <Resource Include="App_Resources\iOS\Default-667h.png" />
+    <Resource Include="App_Resources\iOS\Default-736h.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape-667h.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape-736h.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape@2x.png" />
+    <Resource Include="App_Resources\iOS\Default-Portrait.png" />
+    <Resource Include="App_Resources\iOS\Default-Portrait@2x.png" />
+    <Resource Include="App_Resources\iOS\Default.png" />
+    <Resource Include="App_Resources\iOS\Default@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-40.png" />
+    <Resource Include="App_Resources\iOS\icon-40@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-40@3x.png" />
+    <Resource Include="App_Resources\iOS\icon-60.png" />
+    <Resource Include="App_Resources\iOS\icon-60@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-60@3x.png" />
+    <Resource Include="App_Resources\iOS\icon-72.png" />
+    <Resource Include="App_Resources\iOS\icon-72@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-76.png" />
+    <Resource Include="App_Resources\iOS\icon-76@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small-50.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small-50@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small@2x.png" />
+    <Resource Include="App_Resources\iOS\icon.png" />
+    <Resource Include="App_Resources\iOS\icon@2x.png" />
+    <Resource Include="App_Resources\WP8\ApplicationIcon.png" />
+    <Resource Include="App_Resources\WP8\SplashScreenImage.jpg" />
+    <Resource Include="App_Resources\WP8\Assets\BadgeLogo.png" />
+    <Resource Include="App_Resources\WP8\Assets\Logo.png" />
+    <Resource Include="App_Resources\WP8\Assets\SplashScreen.png" />
+    <Resource Include="App_Resources\WP8\Assets\SquareTile150x150.png" />
+    <Resource Include="App_Resources\WP8\Assets\SquareTile71x71.png" />
+    <Resource Include="App_Resources\WP8\Assets\StoreLogo.png" />
+    <Resource Include="App_Resources\WP8\Assets\WideLogo.png" />
+    <Resource Include="App_Resources\WP8\Tiles\Iconic\110x110.png" />
+    <Resource Include="App_Resources\WP8\Tiles\Iconic\202x202.png" />
+    <Content Include="kendo\js\jquery.min.js" />
+    <Content Include="kendo\styles\images\back.png" />
+    <Content Include="kendo\styles\images\kendoui.svg" />
+    <Content Include="kendo\styles\images\kendoui.ttf" />
+    <Content Include="kendo\styles\images\kendoui.woff" />
+    <Content Include="kendo\styles\images\wp8_icons.png" />
+    <Content Include="kendo\styles\images\wp8_inverseicons.png" />
+    <TypeScriptCompile Include="kendo\typescript\jquery.d.ts" />
+    <TypeScriptCompile Include="kendo\typescript\kendo.mobile.d.ts" />
+    <Content Include="scripts\app.js" />
+    <Content Include="scripts\Details.js" />
+    <Content Include="styles\theme_glacier.css" />
+    <Content Include="styles\theme_shadow.css" />
+    <Content Include="views\home.html" />
+    <Content Include="views\ObservationBreakdown.html" />
+    <Content Include="views\PBS.html" />
+    <Content Include="views\Priority.html" />
+    <Content Include="views\settings.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Resources\" />
+    <Folder Include="App_Resources\Android\" />
+    <Folder Include="App_Resources\Android\drawable-hdpi\" />
+    <Folder Include="App_Resources\Android\drawable-ldpi\" />
+    <Folder Include="App_Resources\Android\drawable-mdpi\" />
+    <Folder Include="App_Resources\Android\drawable-nodpi\" />
+    <Folder Include="App_Resources\iOS\" />
+    <Folder Include="App_Resources\WP8\" />
+    <Folder Include="App_Resources\WP8\Assets\" />
+    <Folder Include="App_Resources\WP8\Tiles\" />
+    <Folder Include="App_Resources\WP8\Tiles\Iconic\" />
+    <Folder Include="bower_components\" />
+    <Folder Include="bower_components\chartjs\" />
+    <Folder Include="bower_components\chartjs\docs\" />
+    <Folder Include="bower_components\chartjs\samples\" />
+    <Folder Include="bower_components\chartjs\src\" />
+    <Folder Include="bower_components\everlive\" />
+    <Folder Include="bower_components\everlive\min\" />
+    <Folder Include="bower_components\everlive\src\" />
+    <Folder Include="Images\" />
+    <Folder Include="Images\ReportType\" />
+    <Folder Include="kendo\" />
+    <Folder Include="kendo\js\" />
+    <Folder Include="kendo\styles\" />
+    <Folder Include="kendo\styles\Black\" />
+    <Folder Include="kendo\styles\BlueOpal\" />
+    <Folder Include="kendo\styles\Bootstrap\" />
+    <Folder Include="kendo\styles\Default\" />
+    <Folder Include="kendo\styles\Flat\" />
+    <Folder Include="kendo\styles\HighContrast\" />
+    <Folder Include="kendo\styles\images\" />
+    <Folder Include="kendo\styles\MetroBlack\" />
+    <Folder Include="kendo\styles\Metro\" />
+    <Folder Include="kendo\styles\Moonlight\" />
+    <Folder Include="kendo\styles\Silver\" />
+    <Folder Include="kendo\styles\Uniform\" />
+    <Folder Include="kendo\typescript\" />
+    <Folder Include="Plugins\" />
+    <Folder Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\" />
+    <Folder Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\src\" />
+    <Folder Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\src\android\" />
+    <Folder Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\src\android\libs\" />
+    <Folder Include="Plugins\wikitude-cordova-plugin-4.1.0-3.0.1\src\ios\" />
+    <Folder Include="scripts\" />
+    <Folder Include="styles\" />
+    <Folder Include="views\" />
+  </ItemGroup>
+  <Import Project="$(IceniumTargets)Build.targets" />
+  <!--
+    TODO: Uncomment this code if you need to customize the build process.
+    <Target Name="BeforeBuild">
+        <Message Text="TODO: Implement BeforeBuild" Importance="high" />
+    </Target>
+
+    <Target Name="AfterBuild">
+        <Message Text="TODO: Implement AfterBuild" Importance="high" />
+    </Target>
+    -->
+</Project>

@@ -1,0 +1,19 @@
+
+@import "common.css";
+
+.km-drawer-button:before, .km-drawer-button:after  { content: "\E077"; }
+
+
+#grad
+{ 
+    background: linear-gradient(0deg,#3B97B3, #85B6D4);
+}
+
+body 
+{
+    background: linear-gradient(0deg,#3B97B3, #85B6D4);
+}
+#appDrawer
+{ 
+    background: linear-gradient(0deg,#3B97B3,#85B6D4);
+}

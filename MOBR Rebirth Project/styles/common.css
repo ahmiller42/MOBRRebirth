@@ -1,0 +1,99 @@
+
+.km-drawer-button:before, .km-drawer-button:after  { content: "\E077"; }
+
+img.listViewIcon
+{
+    width: 32px;
+    float: left;
+    height: 32px;
+}
+span.CountStyle
+{
+   float:right;
+   margin-right:10%;
+}
+div.listViewTextMain
+{
+    font-weight: bold;
+    margin-left:40px;
+}
+div.listViewTextSub
+{
+    font-size:75%;
+    margin-left:40px;
+}
+div
+{
+    color:white;
+}
+
+div.Header1
+{   
+    font-size:150%;
+    font-weight: bold;
+}
+
+div.Header2
+{
+    font-weight: bold;
+}
+
+div.SubItem
+{
+    font-style:italic;
+    margin-left:25px;
+}
+
+div.detailsPage
+{
+    margin-left:10px;
+}
+
+#drawerHead
+{
+    background-color: rgba(0,0,0,0.20);    
+}
+
+#drawerBody
+{    
+    background-color: rgba(0,0,0,0.10);    
+}
+
+
+div.mainScreenDiv
+{
+    margin: 2%; 
+    background-color: rgba(0,0,0,0.10); 
+    float: left; 
+    min-width: 250px; 
+    width: 90%;
+    height:220px;
+}
+
+label.mainScreenDivHeaderLabel
+{
+    margin:5px;
+    margin-top:5px;
+    display:inline-block;
+}
+
+div.mainScreenDivHeader
+{
+    background-color: rgba(0,0,0,0.20);
+    height:25px;    
+
+}
+div.mainScreenDivContent
+{
+    margin:5px;
+    
+}
+span.pageTitle
+{
+    color:white;
+}
+
+a:link
+{
+    color:white;
+}

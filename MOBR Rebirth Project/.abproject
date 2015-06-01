@@ -1,11 +1,11 @@
 {
-  "ProjectName": "MOBR Rebirth Project",
-  "ProjectGuid": "5211c2ed-d5d0-4624-9d2c-bc1018ce3592",
+  "ProjectName": "MOBR-KendoDrawer-JS",
+  "ProjectGuid": "6d033166-ed5f-48d7-91b1-ee43924c49fb",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.MOBRRebirthProject",
-  "DisplayName": "MOBR Rebirth Project",
+  "AppIdentifier": "com.telerik.MOBRKendoDrawerJS",
+  "DisplayName": "MOBR-KendoDrawer-JS",
   "Author": "",
-  "Description": "",
+  "Description": "MOBR-KendoDrawer-JS",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
@@ -32,14 +32,15 @@
     "ID_CAP_WEBBROWSERCOMPONENT"
   ],
   "WP8Requirements": [],
-  "WP8PublisherID": "{83d8714b-6bc0-478b-89b9-f9803ccea5d1}",
-  "WP8ProductID": "{d845136b-7479-4f8a-b92c-444eac3d5127}",
+  "WP8PublisherID": "{f1edf4e0-eaea-48d0-af05-7b7fb05a9208}",
+  "WP8ProductID": "{c7fb1350-a975-424c-8dfa-2baa47111ee3}",
   "WPSdk": "8.0",
-  "WP8PackageIdentityName": "1234Telerik.MOBRRebirthProject",
+  "WP8PackageIdentityName": "1234Telerik.MOBRKendoDrawerJS",
   "WP8WindowsPublisherName": "CN=Telerik",
   "WP8SupportedResolutions": [
     "ID_RESOLUTION_WVGA",
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
-  ]
+  ],
+  "CorePlugins": []
 }

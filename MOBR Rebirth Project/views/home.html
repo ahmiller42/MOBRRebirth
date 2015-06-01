@@ -1,0 +1,111 @@
+<div data-role="view" data-title="Observation Reporting" data-layout="main" data-model="APP.models.home" data-show="loadchart">
+    <div class="mainScreenDiv">
+        <div class="mainScreenDivHeader">
+            <div>
+                <label class="mainScreenDivHeaderLabel">Report Status</label>
+            </div>
+        </div>
+        <div class="mainScreenDivContent">
+            <canvas onclick="return launch_reports_from_event(event)"id="canvas" height="150" width="auto"></canvas>
+            <div style="float:right">
+                <a onclick="return launch_reports_from_string('Open')">
+                    <label>Open:</label> 
+                    <div style="float: right;margin-left:5px;" id="observationOpen"></div>
+                </a>
+                <br />
+                <a onclick="return launch_reports_from_string('Closed')">
+                    <label>Closed:</label>
+                    <div style="float:right;margin-left:5px;" id="observationClosed"></div>
+                </a>
+                <br />
+            </div>
+        </div>
+    </div>
+
+
+    <div class="mainScreenDiv" id="nextObservation">
+            <div class="mainScreenDivHeader">
+                <label class="mainScreenDivHeaderLabel">Navigate to Next Observation</label>
+            </div>
+
+        <div class="mainScreenDivContent">
+            <table style="width: 90%; max-height:90%; table-layout: fixed; margin:5px; ">
+                <tr>
+                    <td height="40%">
+                        <div >
+                            <a onclick="return loadARchitectWorld()"> 
+                                <img src="Images/ArrowKnockout.svg" style="max-height:160px; max-width:95%;" />
+                            </a>
+                        </div>
+                    </td>
+                    <td width="60%">
+                        <div>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <a onclick="return app.loadARchitectWorld();">
+                                            <div style="float:left" data-bind="text: distance"></div><label style="float: left; margin-left:5px;"> meters away</label>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="javascript:alert('test');">
+                                            <div style="float:left" data-bind="text: tag.Name"></div>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label style="overflow: hidden;text-overflow: ellipsis; max-width:35%;white-space: nowrap;display:block;" data-bind="text: description"></label>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+
+
+
+            </table>
+
+
+        </div>
+
+
+    </div>
+
+
+    <div class="mainScreenDiv" id="nextObservation">
+        <div class="mainScreenDivHeader">
+            <label class="mainScreenDivHeaderLabel">Other</label>
+        </div>
+        <div class="mainScreenDivContent">
+
+        </div>
+    </div>
+    <div class="mainScreenDiv" id="nextObservation">
+        <div class="mainScreenDivHeader">
+            <label class="mainScreenDivHeaderLabel">Browse</label>
+        </div>
+        <div class="mainScreenDivContent">
+
+        </div>
+    </div>
+    <div class="mainScreenDiv" id="nextObservation">
+        <div class="mainScreenDivHeader">
+            <label class="mainScreenDivHeaderLabel">Recent</label>
+        </div>
+        <div class="mainScreenDivContent">
+
+        </div>
+    </div>
+    <div class="mainScreenDiv" id="nextObservation">
+        <div class="mainScreenDivHeader">
+            <label class="mainScreenDivHeaderLabel">Other</label>
+        </div>
+        <div class="mainScreenDivContent">
+
+        </div>
+    </div>
+</div>

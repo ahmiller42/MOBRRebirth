@@ -1,0 +1,17 @@
+
+@import "common.css";
+
+
+#grad
+{ 
+    background:  linear-gradient(to bottom, rgba(43,72,74,1) 0%, rgba(3,3,2,1) 100%);
+}
+
+body 
+{
+    background:  linear-gradient(to bottom, rgba(43,72,74,1) 0%, rgba(3,3,2,1) 100%);
+}
+#appDrawer
+{ 
+    background:  linear-gradient(to bottom, rgba(43,72,74,1) 0%, rgba(3,3,2,1) 100%);
+}

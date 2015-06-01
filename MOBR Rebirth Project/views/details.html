@@ -1,0 +1,48 @@
+<div data-role="view" data-title="Details" data-layout="main" data-reload="true" data-show="showDetails">
+    <div id="detailsContent" class="detailsPage">
+        <div class="Header1" data-bind="text: name"></div>
+        <div class="Header2" data-bind="text: header1"></div>
+        <div class="SubItem" data-bind="text: subItem1"></div>
+        <div class="Header2" data-bind="text: header2"></div>
+        <div class="SubItem" data-bind="text: subItem2"></div>
+        <div class="Header2" data-bind="text: header3"></div>
+        <div class="SubItem" data-bind="text: subItem3"></div>
+        <div class="Header2" data-bind="text: header4"></div>
+        <div class="SubItem" data-bind="text: subItem4"></div>
+        <div class="Header2" data-bind="text: header5"></div>
+        <div class="SubItem" data-bind="text: subItem5"></div>
+        <div class="Header2" data-bind="text: header6"></div>
+        <div class="SubItem" data-bind="text: subItem6"></div>
+        <div class="Header2" data-bind="text: header7"></div>
+        <div class="SubItem" data-bind="text: subItem7"></div>
+        <div class="Header2" data-bind="text: header8"></div>
+        <div class="SubItem" data-bind="text: subItem8"></div>
+        <div class="Header2" data-bind="text: header9"></div>
+        <div class="SubItem" data-bind="text: subItem9"></div>
+        <div class="Header2" data-bind="text: header10"></div>
+        <div class="SubItem" data-bind="text: subItem10"></div>
+        <div class="Header2" data-bind="text: header11"></div>
+        <div class="SubItem" data-bind="text: subItem11"></div>
+        <div class="Header2" data-bind="text: listHeader1"></div>
+        <ul data-role="listview" data-style="inset" data-template="details-template" data-bind="source: list1"></ul>
+        <div class="Header2" data-bind="text: listHeader2"></div>
+        <ul data-role="listview" data-style="inset" data-template="details-template" data-bind="source: list2"></ul>
+        <div class="Header2" data-bind="text: listHeader3"></div>
+        <ul data-role="listview" data-style="inset" data-template="details-template" data-bind="source: list3"></ul>
+        <div class="Header2" data-bind="text: listHeader4"></div>
+        <ul data-role="listview" data-style="inset" data-template="details-template" data-bind="source: list4"></ul>
+        <div class="Header2" data-bind="text: listHeader5"></div>
+        <ul data-role="listview" data-style="inset" data-template="details-template" data-bind="source: list5"></ul>
+        <div class="Header2" data-bind="text: documentListHeader"></div>
+        <ul data-role="listview" data-style="inset" data-template="document-template" data-bind="source: documentList"></ul>
+    </div>
+</div>
+
+<script type="text/x-kendo-template" id="document-template">
+    <a data-bind="click: file_doc">
+        <div style="overflow: hidden;">
+            <img data-bind="attr: {src:Icon_URL}" id="logo" class="listViewIcon" onerror="this.src = './Images/defaultPBS.png';" />
+            <div class="listViewTextMain" data-bind="text: Name"></div>
+        </div>
+    </a>
+</script>

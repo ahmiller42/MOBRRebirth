@@ -1,0 +1,15 @@
+<div data-role="view" data-title="Plant Breakdown" data-layout="main" data-model="APP.models.pbs" data-after-show="refreshFilter">
+    <ul data-role="listview" data-style="inset" data-template="pbs-template" data-bind="source: ds"></ul>
+</div>
+<script type="text/x-kendo-template" id="pbs-template">
+    <a data-bind="click: details_pbs">
+        <div>
+            <img data-bind="attr: {src:Icon_URL}" id="logo" class="listViewIcon" onerror="this.src = './Images/defaultPBS.png';" />
+            <div class="listViewTextMain">
+                <span data-bind="text: Name"></span>
+                <span class="CountStyle">Reports: <span data-bind="text: Count"></span></span>
+            </div>
+            <div class="listViewTextSub" data-bind="text: Type"></div>
+        </div>
+    </a>
+</script>
