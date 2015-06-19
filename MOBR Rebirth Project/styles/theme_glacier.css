@@ -9,7 +9,7 @@
     background: linear-gradient(0deg,#3B97B3, #85B6D4);
 }
 
-body 
+body, .km-content
 {
     background: linear-gradient(0deg,#3B97B3, #85B6D4);
 }
